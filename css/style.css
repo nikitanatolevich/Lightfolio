@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'interregular';
+    src: url('../fonts/inter-regular-webfont.eot');
+    src: url('../fonts/inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/inter-regular-webfont.woff2') format('woff2'),
+    url('../fonts/inter-regular-webfont.woff') format('woff'),
+    url('../fonts/inter-regular-webfont.ttf') format('truetype'),
+    url('../fonts/inter-regular-webfont.svg#interregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 11px 0;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+.top_links{
+    color: #333;
+    font-family: 'interregular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px; /* 162.5% */
+    letter-spacing: 0.13px; text-decoration: none
+}
+.wrapper{
+    max-width: 1248px;
+    margin: auto;
+}
+header .wrapper{
+    padding-top: 18.5px;
+}
+header nav ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+header nav li{
+    margin-left: 20px;
+}
+header nav li a{
+    color: #525252;
+    font-family: 'interregular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.18px;
+    text-decoration: none;
+}
+.features{
+    padding: 126px 0px 54px 0px;
+}
+h1{
+    color: #000;
+    font-family: 'interregular';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 73.6px; /* 115% */
+    letter-spacing: 2.56px; max-width: 825px
+}
+main .text_span{
+    color: #757575;
+    font-family: 'interregular';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 73.6px; /* 115% */
+    letter-spacing: 2.56px;
+}
+.excerpt{
+    background: #000;
+    padding: 69px 0px 22px 0px;
+
+}
+.excerpt form{
+max-width: 564px;
+margin: auto;
+}
+.excerpt form .text{
+    display: block;
+    width: 100%;
+    height: 57px;
+    padding-left: 31px;
+    background: rgba(255, 255, 255, 0.18);
+}
+.excerpt form .message{
+    display: block;
+    width: 100%;
+    height: 110px;
+    resize: none;
+    margin-bottom: 22px;
+    padding-left: 31px;
+    padding-top: 17px;
+    background: rgba(255, 255, 255, 0.18);
+}
+.excerpt button{
+    border: solid 2px #7EC4BD;
+    background-color: transparent;
+    margin: auto;
+    display: block;
+    padding: 15px 60px;
+    color: #8BCAC3;
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px; /* 129.412% */
+}
+.quote{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.content{
+    padding-top: 126px;
+    padding-bottom: 128px;
+    border-radius: 20px;
+    background: #FFEBD8;
+}
+h2{
+    max-width: 638px;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-family: 'interregular';
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 73.6px; /* 129.123% */
+    letter-spacing: 2.56px;
+}
+.wrapper .content p{
+    margin-top: 64px;
+    text-align: center;
+    color: #000;
+    font-family: 'interregular';
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 140.541% */
+    letter-spacing: 1.2px;
+}
+.aside1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 65px;
+    border-bottom: solid 2px black;
+    }
+.aside2{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+footer li{
+    margin-right: 32px;
+}
+footer li a{
+    text-decoration: none
+}
+.list{
+    color: #000;
+    font-family: 'interregular';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.2px;
+}
+.items{
+    color: #000;
+    font-family: 'interregular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.14px;
+}
+.item{
+    color: #525252;
+    font-family: 'interregular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.14px;
+}
