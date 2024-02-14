@@ -198,3 +198,62 @@ footer li a{
     line-height: 21px; /* 150% */
     letter-spacing: 0.14px;
 }
+.about_me{
+    padding: 132px 0;
+}
+.about_me .ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    border: solid black 1px;
+    border-radius: 18px;
+    color: black;
+    padding: 20px 76px 20px 44px;
+    width: 100%;
+    font-family: 'interregular';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.25;
+    position: relative;
+}
+.about_me .ui-accordion .ui-accordion-content{
+    background-color: #FFEBD8;
+    border: solid black 1px;
+    border-radius: 0 0 18px 18px;
+    border-top: none;
+    position: relative;
+}
+.about_me .ui-accordion .ui-accordion-header.ui-state-active{
+    background-color: #FFEBD8;
+    border-bottom: none;
+    border-radius: 18px 18px 0 0;
+}
+.about_me .ui-state-active .ui-icon, .about_me .ui-icon, .ui-widget-content .ui-icon{
+    position: absolute;
+    right: 15px;
+    background-image: none;
+}
+.about_me .ui-accordion .ui-accordion-header::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    right: 44px;
+    height: 32px;
+    width: 32px;
+    color: black;
+    transform: rotate(0);
+    transition: transform .2s;
+    background-image: url(https://www.thelimitlesspill.com/cdn/shop/t/25/assets/chevron-down.svg);
+}
+.about_me .ui-accordion .ui-accordion-header.ui-state-active::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    right: 44px;
+    height: 32px;
+    width: 32px;
+    color: black;
+    transform: rotate(180deg);
+    transition: transform .2s;
+    background-image: url(https://www.thelimitlesspill.com/cdn/shop/t/25/assets/chevron-down.svg);
+}
